@@ -15,18 +15,17 @@ const coffeeShop = {
     drinksOrdered(drink){
         for (let i = 0; i < this.drinks.length; i++){
             if(drink == this.drinks[i]){
-                console.log(`You ordered a ${drink} and it will cost ${this.drinks[i+1]}`)
+                console.log(`You ordered a ${drink} and it will cost ${this.drinks[i+1]}`);
             }
         }
-
     },
     foodOrdered(food){
         for (let i = 0; i < this.food.length; j++){
             if(food == this.food[j]){
-                console.log(`You ordered a ${this.food[j]} and it will cost ${this.food[j+1]}`)
+                console.log(`You ordered a ${this.food[j]} and it will cost ${this.food[j+1]}`);
             }
 
-    }
+        }
+    },
 }
-
-coffeeShop.drinksOrdered(coke);
+coffeeShop.drinksOrdered('coke');

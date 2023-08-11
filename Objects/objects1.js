@@ -6,4 +6,4 @@ const person = {
     }
 
     };
-console.log(person.drinks [1]);
+console.log(person);
